@@ -1,0 +1,124 @@
+ .hide{
+    display: none;
+ }
+ 
+ @media screen and (max-width:576px) {
+    .navlinks{
+        display: none;
+    }
+    .short-nav{
+        display: flex;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-deatials{
+      width: 100%;
+    }
+    .banner-title,.banner-description{
+        width: 100%;
+    }
+    /* .banner-join{
+        margin-bottom: 15px;
+    } */
+    .five-hundeed{
+        top: 40%;
+    }
+    .habit-img{
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(1,0fr);
+        box-sizing: border-box;
+        padding-left: 20%;
+    }
+     .habit-section{
+        height: auto;
+         
+     }
+     .runner-container{
+        display: flex;
+        flex-direction: column;
+     }
+     .runner-title{
+        width: 200%;
+        padding: 10px 3px;
+     }
+     .runner-description{
+        width: 200%;
+     }
+     .runner-img{
+        width: 100%;
+        object-fit: cover;
+     }
+     .runner-details{
+        width: 50%;
+     }
+     .runner-details .btn-primary{
+        width: 200%;
+        margin-left: 15%;
+     }
+
+     /*tranning exercise section */
+     .Training-Exercise-title{
+      line-height: normal;
+     }
+     .parent{
+      width: 100%;
+      grid-template-columns: repeat(15,1fr);
+     }
+     .child-1{
+      grid-column: span 8;
+     }
+     .child-2{
+      grid-column: span 7;
+      background-size: cover;
+      background-position: center;
+     }
+     .child-3{
+      display: none;
+     }
+
+
+     .child-4{
+      grid-column: span 7;
+     }
+     .child-5{
+      grid-column: span 8;
+     }
+      
+/* bmi section */
+.bmi-body{
+   flex-direction: column;
+}
+.select-gender{
+    padding-left: 88%;
+}
+   /*trainer section  */
+   .team-section-img{
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows: 250px 250px 250px 250px 250px 250px;
+   }
+   .footer-body{
+      flex-direction: column;
+      
+   }
+   .footer-information{
+       
+      width: 80%;
+      flex-direction: column;
+     
+   }
+   .fitness{
+      width: 80%;
+   }
+   .footer-information{
+      width: 90%;
+   }
+   .get-started-1{
+      width: 100%;
+   }
+   .fitness-description{
+      width: 100%;
+   }
+ }
