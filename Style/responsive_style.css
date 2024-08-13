@@ -92,7 +92,8 @@
    flex-direction: column;
 }
 .select-gender{
-    padding-left: 88%;
+    /* padding-left: 88%; */
+    width: auto;
 }
    /*trainer section  */
    .team-section-img{
